@@ -1,0 +1,13 @@
+[15-Jan-2016 06:17:45 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Authentication failed! Facebook returned an invalid user id.' in /home/server/public_html/nvp/application/third_party/hybridauth/hybridauth/Hybrid/Auth.php:169
+Stack trace:
+#0 /home/server/public_html/nvp/application/third_party/hybridauth/hybridauth/Hybrid/Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 /home/server/public_html/nvp/application/controllers/members/sociallogin.php(41): Hybrid_Auth->__construct(Array)
+#2 [internal function]: Sociallogin->index('facebook')
+#3 /home/server/public_html/nvp/application/controllers/members/sociallogin.php(31): call_user_func_array(Array, Array)
+#4 /home/server/public_html/nvp/system/core/CodeIgniter.php(326): Sociallogin->_remap('facebook', Array)
+#5 /home/server/public_html/nvp/index.php(202): require_once('/home/server/pu...')
+#6 {main}
+  thrown in /home/server/public_html/nvp/application/third_party/hybridauth/hybridauth/Hybrid/Auth.php on line 169
+[15-Jan-2016 07:42:07 America/Chicago] jpg
+[15-Jan-2016 08:05:40 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/server/public_html/nvp/application/models/login_model.php on line 90
+[17-Jan-2016 00:28:42 America/Chicago] jpg

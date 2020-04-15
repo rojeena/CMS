@@ -1,0 +1,9 @@
+#calendar {
+    padding: 0 10px;
+}
+.fc-content {
+    cursor: pointer;
+}
+.fc-other-month{
+    visibility: hidden;
+}
